@@ -23,7 +23,7 @@ namespace V19_2_While
                 {
                     Console.WriteLine("El número ingresado es mayor.");
                 }
-                else
+                if(Intento < NumeroRandom)
                 {
                     Console.WriteLine("El número ingresado es menor.");
                 }
